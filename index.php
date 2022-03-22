@@ -33,69 +33,180 @@
 
 <body>
 
+    
+    <!-- Largura minima de 576 entra o col sm -->  
+    <!-- Largura minima 768px entra o md -->  
+   <!-- largura  minima 992 entra col lg  --> 
+   <!-- largura  minima 1200 entra col XL  --> 
 
-<div class="container-fluid">
+   <div class="container-fluid">   
 
-<div class="row">
-    <div id="logo"> 
+   <div class="row" >
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: white;">
+                                      
+
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+  </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link" href="#app"><h6 >Desenvolvimento de APP</h6></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#uxui"><h6> UX UI Design</h6></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#site"><h6>Sites personalizados</h6></a>
+                </li>
+             
+                
+              </ul>
+            </div>
+          </nav>
+
+</div>   
+
+
+
+
+<div class="row" style="padding-top:25px;">
+    <div class="logo"> 
         <img src="logo.png" class="img-fluid">
     </div>
 </div>
 
-<div class="row">
 
-            <div class="col-12 col-sm-6"> 
-               <div id="texto_topo"> 
-               <h1>  Criação de sites e Aplicativos personalizados </h1>
-                </div>
+
+
+<div class="row">    <!-- Inicio ROW 1 -->
+        <div class="col-md-6 col-sm-12" >
+            <div class="texto_topo"> 
+        <h1>  Criação de sites e Aplicativos personalizados </h1>
             </div>
+        </div>
+        <div class="col-md-6 col-sm-12" >
+        <img src="intro-mobile.png" class="img-fluid">   
+    </div>
 
-            <div class="col-12 col-sm-6"> 
-                        <img src="intro-mobile.png" class="img-fluid">
-            </div>
-</div>            
-
-        <div align="center" style="padding-top: 100px;">  <h1> Nossos Serviços  </h1> </div>
-
-      
-                <div class="row"> <!-- Comeco  Row servicos -->
-                    <div class="servicos">
-
-                        <card>
-                                
-                            <section2>
-                                <div align="center" style="padding-top:25px;">  
-                                <i class='fas fa-mobile-alt' style='font-size:36px'></i>                       
-                                <h4 align="center" style="font-style:italic;  padding-top:10px; font-size:24px;">   Desenvolvimento de APP </h4>
-                               
-                                </div>  
-                                </section2>
-                                
-                                <section2>
-                                <div align="center" style="padding-top:25px;"> 
-                                <i class='fas fa-palette' style='font-size:36px'></i>
-                                <h4 align="center" style="font-style:italic;  padding-top:10px; font-size:24px;">   UX UI Design </h4> 
-                                      
-                                </div>
-                                </section2>
-                                
-                                <section2>
-                                <div align="center" style="padding-top:25px;"> 
-                                <i class='fas fa-desktop' style='font-size:36px'></i>
-                                <h4 align="center" style="font-style:italic;  padding-top:10px; font-size:24px;">  Sites personalizados </h4> 
-                                    
-                                </div>
-                        </section2>
+</div>   <!-- Final ROW 1 -->
 
 
-                        </card>          
-                    
-                    </div>   <!-- Final DIV servicos -->    
-                </div> <!-- Final Row servicos -->
+
+
+<div align="center" style="padding-top: 100px;">  <h1> Nossos Serviços  </h1> </div>
+
             
+    <div class="row"> <!-- Comeco  Row servicos -->
+        <div class="servicos">
+
+            <card>
+                    
+    <section2>
+        <div id="app"> </div>
+        <div align="center" style="padding-top:25px;">  
+        <i class='fas fa-mobile-alt' style='font-size:36px'></i>                       
+        <h4 align="center" style="font-style:italic;  padding-top:10px; font-size:24px;">   Desenvolvimento de APP </h4>
+        
+        </div>  
+        </section2>
+        
+        <section2>
+        <div id="uxui"> </div>
+        <div align="center" style="padding-top:25px;"> 
+        <i class='fas fa-palette' style='font-size:36px'></i>
+        <h4 align="center" style="font-style:italic;  padding-top:10px; font-size:24px;">   UX UI Design </h4> 
+                
+        </div>
+        </section2>
+        
+        <section2>
+        <div id="site"> </div>
+        <div align="center" style="padding-top:25px;"> 
+        <i class='fas fa-desktop' style='font-size:36px'></i>
+        <h4 align="center" style="font-style:italic;  padding-top:10px; font-size:24px;">  Sites personalizados </h4> 
+            
+        </div>
+</section2>
+
+
+            </card>          
+        
+        </div>   <!-- Final DIV servicos -->    
+    </div> <!-- Final Row servicos -->
+
+
+
+            
+    <div class="servicos2">
+
+    <div class="row">   <!-- Inicio ROW 2  -->   
+
+<div class="col-sm-12 col-md-3 col-lg-3" >
+<card>
+        <section3> 
+            <p class="font-weight-bold text-center pt-2"> Bootstrap</p>
+            <p class="text-center p-1">   Lorem Ipsum is simply dummy text of the printing . </p> 
+        </section3>
+        <section3> 
+            <p class="font-weight-bold text-center pt-2"> Javascript </p>
+            <p class="text-center p-1">   Lorem Ipsum is simply dummy text of the printing . </p> 
+        </section3>
+        <section3>
+        <p class="font-weight-bold text-center pt-2"> HTML5 CSS3 </p>  
+        <p class="text-center p-1">   Lorem Ipsum is simply dummy text of the printing . </p> 
+        </section3>
+</card> 
+    
+</div>          
+
+                
+
+            
+
+    <div class="col-sm-12 col-md-6 col-lg-6" >
+    <img src="mobile.png" class="img-fluid">   
+    
+    </div>
+
+    <div class="col-sm-12 col-md-3 col-lg-3" >
+
+    <card>
+            <section3>
+                <p class="font-weight-bold text-center pt-2"> Design Moderno </p> 
+                <p class="text-center p-1">   Lorem Ipsum is simply dummy text of the printing . </p> 
+            </section3>
+            <section3>
+                    <p class="font-weight-bold text-center pt-2"> Responsivo </p> 
+                    <p class="text-center p-1">   Lorem Ipsum is simply dummy text of the printing . </p> 
+                </section3>
+            <section3>
+                    <p class="font-weight-bold text-center pt-2"> Adaptativo </p> 
+                    <p class="text-center p-1">   Lorem Ipsum is simply dummy text of the printing . </p> 
+            </section3>
+    </card>  
+
+    </div>
+
+
+
+
+    </div>   <!-- FIM  ROW 2  -->  
+
+</div>    <!-- FIM  DIV class principal 2 -->   
+
+        
 
 
 </div>   <!-- Final container fluid -->
+
+
+   
+
+
+
                                                     
 
       
