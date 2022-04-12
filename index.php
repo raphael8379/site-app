@@ -197,7 +197,8 @@
 
 </div>    <!-- FIM  DIV class principal 2 -->   
 
-        
+
+<div class="rodape">  </div>
 
 
 </div>   <!-- Final container fluid -->
